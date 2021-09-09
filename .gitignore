@@ -2,7 +2,8 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
+/Molina Set Dressing Greyboxing/Library
+/Molina Set Dressing Greyboxing/Temp
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
