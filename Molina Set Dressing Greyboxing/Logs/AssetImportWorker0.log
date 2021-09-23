@@ -15,11 +15,11 @@ C:/Users/aidan/Desktop/G300 Assignments/Molina-Set-Dressing-Greyboxing/Molina Se
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57705
+65131
 Successfully changed project path to: C:/Users/aidan/Desktop/G300 Assignments/Molina-Set-Dressing-Greyboxing/Molina Set Dressing Greyboxing
 C:/Users/aidan/Desktop/G300 Assignments/Molina-Set-Dressing-Greyboxing/Molina Set Dressing Greyboxing
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 130.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 103.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -27,24 +27,732 @@ Initialize engine version: 2020.3.13f1 (71691879b7f5)
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   
-    VRAM:     8117 MB
-    Driver:   23.20.16.5018
+    VRAM:     6052 MB
+    Driver:   27.21.14.5167
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007909 seconds.
+Registered in 0.132900 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.432 seconds
+- Completed reload, in  3.636 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.215377 seconds.
+Registered in 0.458039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.650 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2649.
+Total: 2.632000 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.081100 ms MarkObjects: 2.222000 ms  DeleteObjects: 0.104500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/StarterAssets
+  artifactKey: Guid(25652b4a451e0584bb1380b8310ac04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets using Guid(25652b4a451e0584bb1380b8310ac04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01729a5e034b958ebba427d5ffbe5df9') in 0.009605 seconds 
+  Import took 0.012750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.876098 seconds.
+  path: Assets/Simple Vehicle Pack
+  artifactKey: Guid(a73577fe13e14104d974075c7bbfc389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack using Guid(a73577fe13e14104d974075c7bbfc389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b89f7bd7eb77f21f8d2f8fb387d91f') in 0.009101 seconds 
+  Import took 0.014969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000877 seconds.
+  path: Assets/Simple Vehicle Pack
+  artifactKey: Guid(a73577fe13e14104d974075c7bbfc389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack using Guid(a73577fe13e14104d974075c7bbfc389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b89f7bd7eb77f21f8d2f8fb387d91f') in 0.006442 seconds 
+  Import took 0.012985 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005399 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2179 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2652.
+Total: 2.201800 ms (FindLiveObjects: 0.174500 ms CreateObjectMapping: 0.072600 ms MarkObjects: 1.873800 ms  DeleteObjects: 0.080000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1799.289569 seconds.
+  path: Assets/StreetLightsPack
+  artifactKey: Guid(04907b66fdb24ca4796f1bb00a096703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack using Guid(04907b66fdb24ca4796f1bb00a096703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c112595e23710989bafc5d0b7db61fd1') in 0.016056 seconds 
+  Import took 0.020702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.741305 seconds.
+  path: Assets/StreetLightsPack/Models
+  artifactKey: Guid(298466bb091908e4cbc084d7ee4559f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models using Guid(298466bb091908e4cbc084d7ee4559f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6aacc5e15a9f37bab191313951fc61c') in 0.010616 seconds 
+  Import took 0.015025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.278286 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2
+  artifactKey: Guid(60b0ace01bb87284193fec5fcaea2671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2 using Guid(60b0ace01bb87284193fec5fcaea2671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbbc3077a4f50ecc9b40f5fe4de7737') in 0.011328 seconds 
+  Import took 0.014985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075926 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/StreetLights2.FBX
+  artifactKey: Guid(00e57022166972f4a948469e9a2acd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/StreetLights2.FBX using Guid(00e57022166972f4a948469e9a2acd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5122b3bc9f4dafe65101ffb765f5d466') in 0.513690 seconds 
+  Import took 0.518363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.956360 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1
+  artifactKey: Guid(dc9db1b59785bc443b6ee88a7b441d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1 using Guid(dc9db1b59785bc443b6ee88a7b441d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccb8d42e229f66a966e1d088402aa58') in 0.007502 seconds 
+  Import took 0.012532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000793 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1
+  artifactKey: Guid(dc9db1b59785bc443b6ee88a7b441d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1 using Guid(dc9db1b59785bc443b6ee88a7b441d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccb8d42e229f66a966e1d088402aa58') in 0.004335 seconds 
+  Import took 0.009171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057152 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/StreetLights1.FBX
+  artifactKey: Guid(72c93e4f187cc614291429b3f1d40f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/StreetLights1.FBX using Guid(72c93e4f187cc614291429b3f1d40f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a5d57e125090ca9a029da0a8b623ef') in 0.154132 seconds 
+  Import took 0.157941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.787968 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures
+  artifactKey: Guid(31cf197eb596d6249ab2169846098278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures using Guid(31cf197eb596d6249ab2169846098278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fb864767dd015877254d58be13327e') in 0.007361 seconds 
+  Import took 0.011562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071296 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat1.jpg
+  artifactKey: Guid(28dfbbc073e032044a6bc52848561688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat1.jpg using Guid(28dfbbc073e032044a6bc52848561688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b8f0a09483cffd13129d7a8f3cff89') in 0.018834 seconds 
+  Import took 0.022244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat19.jpg
+  artifactKey: Guid(bfd0907ae63cd8747b167347703e94c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat19.jpg using Guid(bfd0907ae63cd8747b167347703e94c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950b98c71615d0dbfa10dfb59bc7b30c') in 0.011199 seconds 
+  Import took 0.014448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat18.jpg
+  artifactKey: Guid(36eda73fa902b9e4693174ffc63d9aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat18.jpg using Guid(36eda73fa902b9e4693174ffc63d9aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e641b9554ca1bef820cb8da9b0806f') in 0.018840 seconds 
+  Import took 0.023176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat4.jpg
+  artifactKey: Guid(acce341228dfb874d81399226928d43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat4.jpg using Guid(acce341228dfb874d81399226928d43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33c4825cf8f002a7696bbb22e365506') in 0.018225 seconds 
+  Import took 0.022400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat13.jpg
+  artifactKey: Guid(ecbd82c9aa5b1654db7cc45ee8d7b736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat13.jpg using Guid(ecbd82c9aa5b1654db7cc45ee8d7b736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b229a6151896964fde2a7175b9f449') in 0.025688 seconds 
+  Import took 0.029015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat16.jpg
+  artifactKey: Guid(66315fdc330e7b84da8bc4e0de269908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat16.jpg using Guid(66315fdc330e7b84da8bc4e0de269908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21281cb08620cb5588dec57266c6c726') in 0.015593 seconds 
+  Import took 0.018958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat11.jpg
+  artifactKey: Guid(349488ae5f35d364ab4926fc4f77a4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat11.jpg using Guid(349488ae5f35d364ab4926fc4f77a4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96110aecaf6c1b3534d6ced251fa8811') in 0.014546 seconds 
+  Import took 0.018391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat6.jpg
+  artifactKey: Guid(e5920fb551abd8b488f4ca502b7bd5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat6.jpg using Guid(e5920fb551abd8b488f4ca502b7bd5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42057134d5373f11900757810254dab7') in 0.014129 seconds 
+  Import took 0.017767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat10.jpg
+  artifactKey: Guid(9576c7fa99dad474ab30f11393465328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat10.jpg using Guid(9576c7fa99dad474ab30f11393465328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9504026ecb31da321893424e4e5c870') in 0.013709 seconds 
+  Import took 0.017605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat14.jpg
+  artifactKey: Guid(8a40c3e2f122f964490ff6b3708a4498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat14.jpg using Guid(8a40c3e2f122f964490ff6b3708a4498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774851ee7152cf14b9e4759cd9097eac') in 0.012984 seconds 
+  Import took 0.016600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat17.jpg
+  artifactKey: Guid(582352735cdae5540b8f14a574588472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat17.jpg using Guid(582352735cdae5540b8f14a574588472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d91a0c12d385952eec5e97b3bbdf64') in 0.016914 seconds 
+  Import took 0.020239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat15.jpg
+  artifactKey: Guid(8cbb4818b99866e4ea325d7959eb160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat15.jpg using Guid(8cbb4818b99866e4ea325d7959eb160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d4a92f632924e318d5b4de7e40d60c') in 0.015117 seconds 
+  Import took 0.018702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat7.jpg
+  artifactKey: Guid(7a040a9e05b236447a8539f24d5c6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat7.jpg using Guid(7a040a9e05b236447a8539f24d5c6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c20c7e886d642bddecb44bd693872b') in 0.018942 seconds 
+  Import took 0.022348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat5.jpg
+  artifactKey: Guid(0d1ea00a4a1e36143a8e04bf58ff54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat5.jpg using Guid(0d1ea00a4a1e36143a8e04bf58ff54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fb8a681073f500c52cdccf92aaf6e6') in 0.016913 seconds 
+  Import took 0.020932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat3.jpg
+  artifactKey: Guid(d0e55b8852d31eb4daa41529f332456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat3.jpg using Guid(d0e55b8852d31eb4daa41529f332456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53500597a1613667fa976f5ca4431c51') in 0.017777 seconds 
+  Import took 0.023311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat9.jpg
+  artifactKey: Guid(aad605c7f6ff41741829936c16535dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat9.jpg using Guid(aad605c7f6ff41741829936c16535dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acf37936fe62f6f42aab411b89eb42a') in 0.020389 seconds 
+  Import took 0.024327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat2.jpg
+  artifactKey: Guid(40910db503bd7464cbc5ab2ba8d52363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat2.jpg using Guid(40910db503bd7464cbc5ab2ba8d52363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc6420dae82b93f144121a38faf9833') in 0.019980 seconds 
+  Import took 0.024897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat12.jpg
+  artifactKey: Guid(2d8035e15d7a764489eaff7607726fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat12.jpg using Guid(2d8035e15d7a764489eaff7607726fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370c860937ad0f1951f6a354ee10e392') in 0.014059 seconds 
+  Import took 0.017766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat8.jpg
+  artifactKey: Guid(4b4b456ba0bd9204692bdfef81dac900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat8.jpg using Guid(4b4b456ba0bd9204692bdfef81dac900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a94de8813ad8e2dc1d28840aa06d2ca') in 0.014550 seconds 
+  Import took 0.019156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000743 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat20.jpg
+  artifactKey: Guid(eee2b1fe5a10fff4ebe361207bb8d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat20.jpg using Guid(eee2b1fe5a10fff4ebe361207bb8d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e7e2f9723ae30c2d3c388fd825bc2c') in 0.016417 seconds 
+  Import took 0.022800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.999088 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials
+  artifactKey: Guid(a42e1d97e260a354cb88a10bd7656221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials using Guid(a42e1d97e260a354cb88a10bd7656221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c645f054689cdd9ed4f556f4155877a') in 0.006032 seconds 
+  Import took 0.010103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials
+  artifactKey: Guid(a42e1d97e260a354cb88a10bd7656221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials using Guid(a42e1d97e260a354cb88a10bd7656221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c645f054689cdd9ed4f556f4155877a') in 0.003064 seconds 
+  Import took 0.007657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067347 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat1.mat
+  artifactKey: Guid(172d0a91065094f46881bb2eba57e4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat1.mat using Guid(172d0a91065094f46881bb2eba57e4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36ae2d3304e541069614cd3666f0668') in 0.048922 seconds 
+  Import took 0.052260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat12.mat
+  artifactKey: Guid(942181f2f5cbb9a48bcfbf77713968b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat12.mat using Guid(942181f2f5cbb9a48bcfbf77713968b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4de8dc31e9222af891c47379e86bac2') in 0.010413 seconds 
+  Import took 0.013542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat9.mat
+  artifactKey: Guid(eb8e6e2e2f2cd0d4c9a999b43308ccd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat9.mat using Guid(eb8e6e2e2f2cd0d4c9a999b43308ccd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c10ea3a7685b08ab0f4d2b9ab821bb') in 0.028435 seconds 
+  Import took 0.031769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat10.mat
+  artifactKey: Guid(7efedb818b30d034f913856a7681adbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat10.mat using Guid(7efedb818b30d034f913856a7681adbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b2634ac2bd889b73a418b3ad8c6753') in 0.011289 seconds 
+  Import took 0.015778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat4.mat
+  artifactKey: Guid(1a6072841a9959243a0dece139196933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat4.mat using Guid(1a6072841a9959243a0dece139196933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51005ed3ef01ce396ba49b46f1c22943') in 0.013209 seconds 
+  Import took 0.016688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat11.mat
+  artifactKey: Guid(5c52223eba37841409e1c3919d574e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat11.mat using Guid(5c52223eba37841409e1c3919d574e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139fd317414ff9a1fa34e315e2d7d4d3') in 0.012211 seconds 
+  Import took 0.015877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000708 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat13.mat
+  artifactKey: Guid(00a8bbb130f7e3845b7b670deaabef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat13.mat using Guid(00a8bbb130f7e3845b7b670deaabef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add375cc657d8bcaca74bba5f2c58799') in 0.013547 seconds 
+  Import took 0.017652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat14.mat
+  artifactKey: Guid(1fb6f4558d226ad4eb6254a93e49a2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat14.mat using Guid(1fb6f4558d226ad4eb6254a93e49a2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a3ab5fe10a7e5a1717e256dd0f7fca') in 0.012698 seconds 
+  Import took 0.017511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat15.mat
+  artifactKey: Guid(843b1fb8a57e37f43a4dfdfd2fee5cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat15.mat using Guid(843b1fb8a57e37f43a4dfdfd2fee5cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d2d140284e34dd490eae53d1f1f5bb') in 0.012823 seconds 
+  Import took 0.016665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat18.mat
+  artifactKey: Guid(bedebf15fc4e5f84c8d2b9943ff4d679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat18.mat using Guid(bedebf15fc4e5f84c8d2b9943ff4d679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f48bc00bec4b51f8acf014dad6c69b8') in 0.012140 seconds 
+  Import took 0.017175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat5.mat
+  artifactKey: Guid(fabfc25a6d50e4740a656760f34dc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat5.mat using Guid(fabfc25a6d50e4740a656760f34dc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1328e72e9c6f32cccadf9c88f0e6341f') in 0.012724 seconds 
+  Import took 0.016380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat8.mat
+  artifactKey: Guid(eb5866c475309e24ca426e1243f57031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat8.mat using Guid(eb5866c475309e24ca426e1243f57031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39380cadf953e4ae04c44c73b385a68') in 0.012133 seconds 
+  Import took 0.016370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat2.mat
+  artifactKey: Guid(0ed58da6df81cc94896a5e65ecc91f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat2.mat using Guid(0ed58da6df81cc94896a5e65ecc91f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e21bea83747b115bdd298f6527647a2') in 0.014565 seconds 
+  Import took 0.018421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat16.mat
+  artifactKey: Guid(9b5d8d92fbdb7ff4596d2e40dc4a3585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat16.mat using Guid(9b5d8d92fbdb7ff4596d2e40dc4a3585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bc690d334b7ae6b57adf2a80e16df2') in 0.014552 seconds 
+  Import took 0.018474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat17.mat
+  artifactKey: Guid(747505f7e507f184a9ff32304e1eef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat17.mat using Guid(747505f7e507f184a9ff32304e1eef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28e0e09ec1e9a609b76bce70e335e6c') in 0.013198 seconds 
+  Import took 0.017359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat20.mat
+  artifactKey: Guid(155b12020f502c3498ea6e05df210f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat20.mat using Guid(155b12020f502c3498ea6e05df210f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535ecd5b5d98b82ca3bc1c03d3be25a0') in 0.012788 seconds 
+  Import took 0.016790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat6.mat
+  artifactKey: Guid(7293e1c0e949f934d89346c12b83e063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat6.mat using Guid(7293e1c0e949f934d89346c12b83e063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f90f46ba99624b5ae7f451bdb12366e') in 0.013974 seconds 
+  Import took 0.018006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat7.mat
+  artifactKey: Guid(14acf356d31836b4dbb218da6af1c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat7.mat using Guid(14acf356d31836b4dbb218da6af1c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916499c2ff5376e101f7b654016e9de3') in 0.012716 seconds 
+  Import took 0.016679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat19.mat
+  artifactKey: Guid(e2402792e0704924f99de4880cb86a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat19.mat using Guid(e2402792e0704924f99de4880cb86a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091f92bf09126620a809680ded20c8c8') in 0.017346 seconds 
+  Import took 0.021544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat3.mat
+  artifactKey: Guid(9c6dc3fc00d8b844f8196ac27f9f2599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat3.mat using Guid(9c6dc3fc00d8b844f8196ac27f9f2599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e328f0ecf9fee34c099bd11657a1e47c') in 0.013206 seconds 
+  Import took 0.017686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.886945 seconds.
+  path: Assets/StreetLightsPack/Other
+  artifactKey: Guid(5f4951cf401bb264982b1382871908c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Other using Guid(5f4951cf401bb264982b1382871908c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee24d2e9c6a3043df4ac5151b57cb42b') in 0.007485 seconds 
+  Import took 0.012449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000682 seconds.
+  path: Assets/StreetLightsPack/Other
+  artifactKey: Guid(5f4951cf401bb264982b1382871908c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Other using Guid(5f4951cf401bb264982b1382871908c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee24d2e9c6a3043df4ac5151b57cb42b') in 0.004034 seconds 
+  Import took 0.008896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060803 seconds.
+  path: Assets/StreetLightsPack/Other/Ground.jpg
+  artifactKey: Guid(59e56bb1d8ecfec4daf7a79d358016e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Other/Ground.jpg using Guid(59e56bb1d8ecfec4daf7a79d358016e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0d0fd7d7b1ec3f3efdb2e0170fa57d') in 0.011443 seconds 
+  Import took 0.014858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.792945 seconds.
+  path: Assets/StreetLightsPack/Other/Materials
+  artifactKey: Guid(11afd15dc4423674a87926abc6211cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Other/Materials using Guid(11afd15dc4423674a87926abc6211cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7c2ba896fca5c119b2adfaeaf029fe') in 0.003748 seconds 
+  Import took 0.007481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067463 seconds.
+  path: Assets/StreetLightsPack/Other/Materials/Ground.mat
+  artifactKey: Guid(7ec93fe2625326a4ba440d83dbca0f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Other/Materials/Ground.mat using Guid(7ec93fe2625326a4ba440d83dbca0f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d1817fe29525d8f21b2aa14904f5b2') in 0.011261 seconds 
+  Import took 0.024358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.667718 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Textures
+  artifactKey: Guid(d14dd7d8a8793004dafc4261fd567553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Textures using Guid(d14dd7d8a8793004dafc4261fd567553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcea7a467fe59cbca32e49c07b0c3bee') in 0.002639 seconds 
+  Import took 0.006616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076982 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Textures/mat22.jpg
+  artifactKey: Guid(06639daa02c12a2448ba79f357ce6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Textures/mat22.jpg using Guid(06639daa02c12a2448ba79f357ce6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffaf62db72f28f572c8fabd43bf1d62') in 0.011815 seconds 
+  Import took 0.015224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Textures/mat25.jpg
+  artifactKey: Guid(8e848000c7fb82d4990b5782dfe62f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Textures/mat25.jpg using Guid(8e848000c7fb82d4990b5782dfe62f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62313b1846031844745a13ab891a08df') in 0.011395 seconds 
+  Import took 0.014505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Textures/mat24.jpg
+  artifactKey: Guid(dd4b5d424ec2b1043abe0949da3227a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Textures/mat24.jpg using Guid(dd4b5d424ec2b1043abe0949da3227a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623a45d59ba0de0ac23fbfa9c83f951a') in 0.016123 seconds 
+  Import took 0.019611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Textures/mat31.jpg
+  artifactKey: Guid(f619cb48c21dd844394cc12100b73578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Textures/mat31.jpg using Guid(f619cb48c21dd844394cc12100b73578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7049b154fd1e865f0ffe70d0f5fe9f4b') in 0.019845 seconds 
+  Import took 0.023289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Textures/mat26.jpg
+  artifactKey: Guid(d47d3e75be6e2b04b93ec77baf12630a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Textures/mat26.jpg using Guid(d47d3e75be6e2b04b93ec77baf12630a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3fc82534b2593901d6eec2aad694e0') in 0.013718 seconds 
+  Import took 0.017145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Textures/mat27.jpg
+  artifactKey: Guid(650071e98d0a226409229c9403de680a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Textures/mat27.jpg using Guid(650071e98d0a226409229c9403de680a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ce180d9f2e34693e05457feab4d5ac') in 0.018792 seconds 
+  Import took 0.022344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Textures/mat28.jpg
+  artifactKey: Guid(c3913ce884b5d7748aa673529f217142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Textures/mat28.jpg using Guid(c3913ce884b5d7748aa673529f217142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e738eb6ad1ba32afe3617eb78028c7e2') in 0.012114 seconds 
+  Import took 0.016610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Textures/mat29.jpg
+  artifactKey: Guid(0200098b14acb8843b5fe819e38a31d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Textures/mat29.jpg using Guid(0200098b14acb8843b5fe819e38a31d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47b501c0933ad0de1b2fea675845306') in 0.014363 seconds 
+  Import took 0.017830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Textures/mat30.jpg
+  artifactKey: Guid(8d741bb5806352348b2888fff924e948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Textures/mat30.jpg using Guid(8d741bb5806352348b2888fff924e948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75f5eb6cfdf8d9231acd1862da4b517') in 0.013641 seconds 
+  Import took 0.017990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Textures/mat23.jpg
+  artifactKey: Guid(f1ada70ca621f4a4c8d018fb763fa597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Textures/mat23.jpg using Guid(f1ada70ca621f4a4c8d018fb763fa597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb97f7499833b01401c4dac97329526') in 0.017898 seconds 
+  Import took 0.021688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.348284 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Materials
+  artifactKey: Guid(c5e84f0a0ec5b934e8338fc2c44a7d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Materials using Guid(c5e84f0a0ec5b934e8338fc2c44a7d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9618751bacef164cda8d13011594e35c') in 0.002911 seconds 
+  Import took 0.006975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086863 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Materials/glass.mat
+  artifactKey: Guid(d1fcc71d0a73abc4ea608accc553459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Materials/glass.mat using Guid(d1fcc71d0a73abc4ea608accc553459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5beaef6be41b82babacdec74c1cad4') in 0.013129 seconds 
+  Import took 0.016483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Materials/mat30.mat
+  artifactKey: Guid(bb887fef3a28d294cbc33963af417817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Materials/mat30.mat using Guid(bb887fef3a28d294cbc33963af417817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc78adbda1ed2883962731fea3115f7') in 0.011736 seconds 
+  Import took 0.014993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Materials/mat29.mat
+  artifactKey: Guid(f93036e5d9213e74483ea9bb672bfe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Materials/mat29.mat using Guid(f93036e5d9213e74483ea9bb672bfe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70df4bbb5bba4b5ad20ae729668c557f') in 0.016355 seconds 
+  Import took 0.020155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Materials/mat31.mat
+  artifactKey: Guid(1039669a7d87b0e4a86fcb8ff4a69763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Materials/mat31.mat using Guid(1039669a7d87b0e4a86fcb8ff4a69763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17ac03a80cbc0c393c0a037d4b96870') in 0.016372 seconds 
+  Import took 0.021473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Materials/mat23.mat
+  artifactKey: Guid(63a3f6443dd3079458ba7175a69eb102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Materials/mat23.mat using Guid(63a3f6443dd3079458ba7175a69eb102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4e6a84fc77b6270d8e845f87137857') in 0.014127 seconds 
+  Import took 0.017768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Materials/mat28.mat
+  artifactKey: Guid(0ca823d806715c54b8951ea83c1826a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Materials/mat28.mat using Guid(0ca823d806715c54b8951ea83c1826a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec474513310fc3797e9315983144b80d') in 0.019200 seconds 
+  Import took 0.024103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Materials/mat27.mat
+  artifactKey: Guid(a8b8327eb4a4a4043b6ca07f0e829484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Materials/mat27.mat using Guid(a8b8327eb4a4a4043b6ca07f0e829484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5a9783ac3f399e3a7a899de2216835') in 0.012751 seconds 
+  Import took 0.016398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Materials/mat22.mat
+  artifactKey: Guid(757f85886dbd66e47afb086e4d979e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Materials/mat22.mat using Guid(757f85886dbd66e47afb086e4d979e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64128a3894afcbb7d45dd810ee2bdd4') in 0.015667 seconds 
+  Import took 0.019448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Materials/mat25.mat
+  artifactKey: Guid(49c28527a0d562a40be23891ffa4e9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Materials/mat25.mat using Guid(49c28527a0d562a40be23891ffa4e9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818d8751c39b89035fad3c63038d65e6') in 0.018394 seconds 
+  Import took 0.021705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Materials/mat24.mat
+  artifactKey: Guid(d8047a09dc8369e4f9679fd9d7007f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Materials/mat24.mat using Guid(d8047a09dc8369e4f9679fd9d7007f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700b862be867a7eeef85afa600bf15a9') in 0.018779 seconds 
+  Import took 0.022800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights2/Materials/mat26.mat
+  artifactKey: Guid(39cd0ee20e6e65547a92b87d9608453b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights2/Materials/mat26.mat using Guid(39cd0ee20e6e65547a92b87d9608453b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4904d787eebc48a61fa407e8cd754e54') in 0.020468 seconds 
+  Import took 0.023991 seconds .
+
